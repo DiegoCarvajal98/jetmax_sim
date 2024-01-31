@@ -11,6 +11,29 @@ RUN groupadd --gid $USER_GID $USERNAME \
     && apt-get install -y sudo \
     && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
     && chmod 0440 /etc/sudoers.d/$USERNAME
+    
+RUN apt-get update \
+    && apt-get install -y nano \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN apt-get update \
+    && apt-get install -y python-rosdep \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN apt-get update \
+    && apt-get install -y \
+    bash-completion \
+    python3-argcomplete \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN apt-get update \
+    && apt-get install -y \
+    ros-melodic-effort-controllers \
+    python-pip \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip install PyYAML
+
 # Switch from root to user
 USER $USERNAME
 
@@ -28,7 +51,3 @@ RUN rosdep update
 
 # Source the ROS setup file
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
-
-RUN apt-get update \
-    && apt-get install -y nano \
-    && rm -rf /var/lib/apt/lists/*

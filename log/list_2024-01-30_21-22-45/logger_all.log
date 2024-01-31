@@ -1,0 +1,88 @@
+[1.459s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/diego/jetmax']
+[1.459s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/diego/jetmax'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f18ecbd9ea0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f18ece3a7a0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f18ece3a7a0>>, mixin_verb=('list',))
+[1.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.527s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/diego/jetmax'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax) by extensions ['ignore', 'ignore_ament_install']
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax) by extension 'ignore'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax) by extension 'ignore_ament_install'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax) by extensions ['colcon_pkg']
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax) by extension 'colcon_pkg'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax) by extensions ['colcon_meta']
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax) by extension 'colcon_meta'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax) by extensions ['ros']
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax) by extension 'ros'
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax) by extensions ['cmake', 'python']
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax) by extension 'cmake'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax) by extension 'python'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax) by extensions ['python_setup_py']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax) by extension 'python_setup_py'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/build) by extensions ['ignore', 'ignore_ament_install']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/build) by extension 'ignore'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/build) by extension 'ignore_ament_install'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/build) by extensions ['colcon_pkg']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/build) by extension 'colcon_pkg'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/build) by extensions ['colcon_meta']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/build) by extension 'colcon_meta'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/build) by extensions ['ros']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/build) by extension 'ros'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/build) ignored
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/devel) by extensions ['ignore', 'ignore_ament_install']
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/devel) by extension 'ignore'
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/devel) by extension 'ignore_ament_install'
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/devel) ignored
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/log) by extensions ['ignore', 'ignore_ament_install']
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/log) by extension 'ignore'
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/log) ignored
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src) by extensions ['ignore', 'ignore_ament_install']
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src) by extension 'ignore'
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src) by extension 'ignore_ament_install'
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src) by extensions ['colcon_pkg']
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src) by extension 'colcon_pkg'
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src) by extensions ['colcon_meta']
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src) by extension 'colcon_meta'
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src) by extensions ['ros']
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src) by extension 'ros'
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src) by extensions ['cmake', 'python']
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src) by extension 'cmake'
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src) by extension 'python'
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src) by extensions ['python_setup_py']
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src) by extension 'python_setup_py'
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo) by extension 'ignore'
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo) by extension 'ignore_ament_install'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo) by extensions ['colcon_pkg']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo) by extension 'colcon_pkg'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo) by extensions ['colcon_meta']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo) by extension 'colcon_meta'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo) by extensions ['ros']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo) by extension 'ros'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo) by extensions ['cmake', 'python']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo) by extension 'cmake'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo) by extension 'python'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo) by extensions ['python_setup_py']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo) by extension 'python_setup_py'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo/jetmax_control) by extensions ['ignore', 'ignore_ament_install']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo/jetmax_control) by extension 'ignore'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo/jetmax_control) by extension 'ignore_ament_install'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo/jetmax_control) by extensions ['colcon_pkg']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo/jetmax_control) by extension 'colcon_pkg'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo/jetmax_control) by extensions ['colcon_meta']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo/jetmax_control) by extension 'colcon_meta'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo/jetmax_control) by extensions ['ros']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo/jetmax_control) by extension 'ros'
+[1.549s] DEBUG:colcon.colcon_core.package_identification:Package '/home/diego/jetmax/src/jetmax_gazebo/jetmax_control' with type 'ros.catkin' and name 'jetmax_control'
+[1.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo/jetmax_description) by extensions ['ignore', 'ignore_ament_install']
+[1.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo/jetmax_description) by extension 'ignore'
+[1.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo/jetmax_description) by extension 'ignore_ament_install'
+[1.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo/jetmax_description) by extensions ['colcon_pkg']
+[1.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo/jetmax_description) by extension 'colcon_pkg'
+[1.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo/jetmax_description) by extensions ['colcon_meta']
+[1.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo/jetmax_description) by extension 'colcon_meta'
+[1.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo/jetmax_description) by extensions ['ros']
+[1.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/jetmax/src/jetmax_gazebo/jetmax_description) by extension 'ros'
+[1.551s] DEBUG:colcon.colcon_core.package_identification:Package '/home/diego/jetmax/src/jetmax_gazebo/jetmax_description' with type 'ros.catkin' and name 'jetmax_description'
+[1.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

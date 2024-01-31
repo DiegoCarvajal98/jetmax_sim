@@ -1,0 +1,2 @@
+jetmax_gazebo/jetmax_control:jetmax_gazebo/jetmax_description
+-DCATKIN_DEVEL_PREFIX=/jetmax/devel -DCMAKE_INSTALL_PREFIX=/jetmax/install -G Unix Makefiles
