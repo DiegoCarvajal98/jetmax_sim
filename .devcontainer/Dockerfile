@@ -29,10 +29,14 @@ RUN apt-get update \
 RUN apt-get update \
     && apt-get install -y \
     ros-melodic-effort-controllers \
+    python \
     python-pip \
     && rm -rf /var/lib/apt/lists/*
 
-RUN pip install PyYAML
+RUN apt-get update \
+    && apt-get install -y \
+    python-yaml \
+    && rm -rf /var/lib/apt/lists/*
 
 # Switch from root to user
 USER $USERNAME

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 import rospy
 from jetmax_control.srv import FK, FKRequest, FKResponse
 
